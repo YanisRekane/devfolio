@@ -23,7 +23,7 @@ const greeting = {
   username: "Rekane Yanis",
   title: "Hi all, I'm Yanis",
   subTitle: emoji(
-    "A passionate Full Stack Web Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Backend engineer focused on API architecture, authentication systems, and database-driven applications using Django, Express, MySQL, and PostgreSQL."
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -34,9 +34,9 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/YanisRekane",
   //linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "rekaneyanis7@gmail.com",
+  gmail: "yanis.fullstack@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/YANIS.OX",
+  facebook: "https://www.facebook.com/REKANE.YANIS",
   //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -48,33 +48,31 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY BACKEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
-  ],
+  emoji("⚡ Building secure and scalable REST APIs with Django and Express"),
+  emoji("⚡ Designing and managing relational databases (MySQL & PostgreSQL)"),
+  emoji("⚡ Implementing authentication systems, JWT, RBAC, and email verification"),
+  emoji("⚡ Integrating third-party services like payment gateways, email providers, and storage APIs"),
+],
+
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    //{
+    //  skillName: "html-5",
+    //  fontAwesomeClassname: "fab fa-html5"
+    //},
+    //{
+    //  skillName: "css3",
+    //  fontAwesomeClassname: "fab fa-css3-alt"
+    //},
+    //{
+    //  skillName: "sass",
+    //  fontAwesomeClassname: "fab fa-sass"
+    //},
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -144,16 +142,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
+      Stack: "Backend / APIs", 
       progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "80%"
+      Stack: "Programming / Problem Solving", 
+      progressPercentage: "80%" 
+    },
+    {
+      Stack: "Frontend / UI Development", 
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
